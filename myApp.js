@@ -18,6 +18,11 @@ app.get("/", function(req, res) {
     res.sendFile(indexFile);
 });
 
+// Another handler
+app.get("/json", function(req, res) {
+    res.json('{"message": "Hello json"}');
+})
+
 
 
 
