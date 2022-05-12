@@ -20,7 +20,8 @@ app.get("/", function(req, res) {
 
 // Another handler
 app.get("/json", function(req, res) {
-    res.json('{"message": "Hello json"}');
+    let jsonObj = {"message": "Hello json"};
+    res.json(jsonObj);
 })
 
 
