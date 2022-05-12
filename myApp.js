@@ -2,10 +2,10 @@ let express = require('express');
 let app = express();
 
 // Log something
-console.log('Hello World');
+console.log('Hello Express');
 
 app.get("/", function(req, res) {
-    res.send('Response String');
+    res.send('Hello Express');
 });
 
 
